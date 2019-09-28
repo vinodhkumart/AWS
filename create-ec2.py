@@ -7,7 +7,7 @@ instance = ec2.create_instances(
      MinCount=1,
      MaxCount=4,
      InstanceType='t2.medium',
-	 SecurityGroups=["mysecure"],
+     SecurityGroups=["mysecure"],
      KeyName='vinod-keypair'
  )
 print instance[0].id
