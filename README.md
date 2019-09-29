@@ -1,5 +1,7 @@
 # This basic python program not only creates a key pair in AWS, it also captures and stores it on your local machine. We can use this keypair to ssh into virtual machines later.
+
 Below are the steps involved to proceed further.
+
 1.create a user and get AWS access ID and Secret Key(Programatic access)
 2.Set permissions(eg: EC2FullAccess) 
 3.Download the keys and keep it secure( eg: S3, Vault or etc)
